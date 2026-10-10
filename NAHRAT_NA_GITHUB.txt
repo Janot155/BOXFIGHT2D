@@ -1,0 +1,23 @@
+JAK NAHRAT ZDROJE DO TVEHO REPOZITARE
+
+Repozitar: https://github.com/Janot155/BOXFIGHT2D
+
+1. Rozbal ZIP do slozky.
+2. Na GitHubu otevri repozitar BOXFIGHT2D.
+3. Klikni Add file > Upload files.
+4. Pretahni do stranky tyto soubory z rozbalene slozky:
+   - README.md
+   - index.html
+   - game.py
+   - boxfight.ico
+   - VYROBIT_EXE.bat
+   - NAHRAT_NA_GITHUB.txt
+5. Klikni Commit changes.
+
+POZOR: Samotne nahrani zdrojaku jeste nevytvori EXE ani GitHub Release.
+Na svem Windows PC spust VYROBIT_EXE.bat, potom na GitHubu otevri Releases,
+vyber Draft a new release, nastav tag v1.0.0, pripoj dist\BoxFight2D.exe
+a publikuj release.
+
+Automaticky updater hleda nejnovsi bezny (ne draft/ne prerelease) GitHub Release
+v tomto repozitari a asset pojmenovany presne BoxFight2D.exe.
